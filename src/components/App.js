@@ -1,5 +1,6 @@
 import './App.css';
-import Projects from './components/Projects'; // Import the Projects section
+import Projects from './components/Projects'; // Projects Section
+import FitnessTracker from './components/FitnessTracker'; // Import Fitness Tracker
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       {/* Projects Section */}
       <Projects />
 
+      {/* Fitness Tracker Section */}
+      <FitnessTracker />
     </div>
   );
 }
